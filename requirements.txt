@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-core
+langchain-openai
+openai
+pydantic
+langfuse
+pytest
+python-dotenv
