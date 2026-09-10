@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+
+
+
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Database
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps / backups
+*.dump
+*.sql.bak
+
+# ==============================
+# RAG / Vector Database
+# ==============================
+
+# Local vector stores
+
+chroma/
+chroma_db/
+
+
+# Embedding/cache files
+embeddings/
+embedding_cache/
+
+
+
+# ==============================
+# Langfuse
+# ==============================
+
+langfuse/
+traces/
+
+# ==============================
+# Evaluation
+# ==============================
+
+evaluation/results/
+evaluation/reports/
+deepeval_results/
+*.jsonl
