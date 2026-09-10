@@ -62,6 +62,8 @@ def fetch_customer_profile(customer_id: str) -> dict:
     customer = CUSTOMERS.get(customer_id)
 
     if customer is None:
-        return {}
+        return { }
 
-    return customer.copy()
+    res = { "Name": customer["name"] , "Age": customer["age"], "Employment_type": customer["employment_type"] , "Monthy_Income": customer["monthly_income"] , "Existing_EMI ": customer["existing_emi"]}
+
+    return res
