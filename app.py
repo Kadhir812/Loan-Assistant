@@ -1,11 +1,12 @@
 import uuid
 from dotenv import load_dotenv
+load_dotenv()
+
 from langgraph.types import Command
 from langfuse import get_client
 from langfuse.langchain import CallbackHandler
 from graph.workflow import loan_graph
 
-load_dotenv()
 langfuse = get_client()
 
 def create_config( customer_id: str ):
