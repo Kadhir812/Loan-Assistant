@@ -139,15 +139,6 @@ def get_interrupt_data( result ):
 
 async def main():
 
-    print()
-    print("PERSONAL LOAN ELIGIBILITY & REJECTION ASSISTANT")
-
-    print("Available Test Customers")
-    print("C1001 - Moderate profile")
-    print("C1002 - Strong profile")
-    print("C1003 - Missing EMI / HITL test")
-    print("C1004 - Low income and credit score")
-
     customer_id = input("\nEnter Customer ID: ").strip()
     query = input("Enter Question: ").strip()
 
